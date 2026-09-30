@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "youtube-downloader-pro"
+version = "1.0.0"
+description = "Production-ready YouTube video & audio downloader with Auto, Video, Both, Audio, Quality, and Mass Download options."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+keywords = ["youtube", "downloader", "yt-dlp", "video", "audio", "fastapi", "mass-download"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Multimedia :: Video",
+]
+dependencies = [
+    "yt-dlp>=2026.08.19",
+    "imageio-ffmpeg>=0.6.0",
+    "fastapi>=0.115.0",
+    "uvicorn>=0.30.0",
+    "pydantic>=2.8.0",
+]
+
+[project.scripts]
+youtube-downloader-gui = "server:main"
+youtube-downloader-cli = "downloader_cli:main"
+
+[tool.setuptools]
+py-modules = ["downloader_core", "downloader_cli", "server"]

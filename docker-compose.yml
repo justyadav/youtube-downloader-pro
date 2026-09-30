@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  youtube-downloader:
+    build: .
+    container_name: youtube-downloader-pro
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./downloads:/downloads
+    environment:
+      - HOST=0.0.0.0
+      - PORT=8000

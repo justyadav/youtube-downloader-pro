@@ -1,0 +1,5 @@
+yt-dlp>=2026.08.19
+imageio-ffmpeg>=0.6.0
+fastapi>=0.115.0
+uvicorn>=0.30.0
+pydantic>=2.8.0
