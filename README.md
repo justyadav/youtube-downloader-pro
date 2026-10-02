@@ -39,7 +39,7 @@
 ### Windows (1-Click)
 1. Clone or download this repository:
    ```cmd
-   git clone https://github.com/YOUR_USERNAME/youtube-downloader-pro.git
+   git clone https://github.com/justyadav/youtube-downloader-pro.git
    cd youtube-downloader-pro
    ```
 2. Double-click **`run_downloader.bat`** (for Web GUI) or **`run_cli.bat`** (for Terminal).
@@ -49,7 +49,7 @@
 
 ### macOS & Linux
 ```bash
-git clone https://github.com/YOUR_USERNAME/youtube-downloader-pro.git
+git clone https://github.com/justyadav/youtube-downloader-pro.git
 cd youtube-downloader-pro
 
 # Make scripts executable
