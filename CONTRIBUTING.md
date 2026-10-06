@@ -9,7 +9,7 @@ Thank you for your interest in contributing to **YouTube Downloader Pro**! 🎉
 
 2. **Clone your Fork**:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/youtube-downloader-pro.git
+   git clone https://github.com/justyadav/youtube-downloader-pro.git
    cd youtube-downloader-pro
    ```
 
